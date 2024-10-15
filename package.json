@@ -1,0 +1,35 @@
+{
+  "name": "koishi-plugin-pjsk-guess-song",
+  "description": "",
+  "version": "1.0.10",
+  "contributors": [
+    "NyarukOoO <lcstyk@hotmail.com>"
+  ],
+  "private" : false,
+  "main": "lib/index.js",
+  "typings": "lib/index.d.ts",
+  "files": [
+    "lib",
+    "dist"
+  ],
+  "license": "MIT",
+  "scripts": {},
+  "keywords": [
+    "chatbot",
+    "koishi",
+    "plugin"
+  ],
+  "peerDependencies": {
+    "koishi": "^4.18.0"
+  },
+  "dependencies": {
+    "gm": "^1.25.0",
+    "random": "^5.1.1"
+  },
+  "koishi": {
+    "description": {
+      "en": "pjsk guess song",
+      "zh": "pjsk猜歌"
+    }
+  }
+}
